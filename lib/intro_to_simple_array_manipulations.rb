@@ -50,7 +50,8 @@ def using_delete(array, string)
 end
 #Will remove any elements that are equal to the specified string in the passed argument
 
-def using_delete_at(array)
+def using_delete_at(array, integer)
+  array.delete
 
 
 
