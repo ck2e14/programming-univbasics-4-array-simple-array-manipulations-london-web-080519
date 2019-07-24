@@ -40,8 +40,20 @@ def using_uniq(array)
 end
 #Removes and duplicated items from array
 
-
 def using_flatten(array)
   array.flatten 
 end 
 #Returns an array of strings from an array that contains orther arrays
+
+def using_delete(array, string)
+  array.delete(string)
+end
+#Will remove any elements that are equal to the specified string in the passed argument
+
+def using_delete_at(array)
+
+
+
+
+
+
